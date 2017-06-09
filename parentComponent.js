@@ -37,6 +37,7 @@
             $ctrl.primitiveValue='On Change Example()';
             $ctrl.enterInfo='2';
             $ctrl.enterArray=[];
+           $ctrl.view='Communication';
            // $ctrl.enterMyData="Swapnil";
 
             
