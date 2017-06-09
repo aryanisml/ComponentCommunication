@@ -11,7 +11,17 @@ One Way Binding it never going to change <input type="text" ng-model="$ctrl.prim
 </div>
 -->
 
-
-
-<child-component1 on-view-change="$ctrl.view =$event.view" enter-value="$ctrl.enterInfo" enter-value-data="$ctrl.enterValueData()" view="$ctrl.view"></child-component1>
-<child-component2 enter-value-array="$ctrl.enterArray"   view="$ctrl.view"></child-component2>
+<div class="cotaniner">
+    <div class="row"  style="border:solid; height:400px; padding-top:10px;">
+    <div>
+        Parent Component
+    </div>
+        <div class="col-sm-6" style="padding-top:10px;">
+            <child-component1 on-view-change="$ctrl.view =$event.view" enter-value="$ctrl.enterInfo" enter-value-data="$ctrl.enterValueData()"
+                view="$ctrl.view"></child-component1>
+        </div>
+        <div class="col-sm-6" style="padding-top:10px;">
+            <child-component2 enter-value-array="$ctrl.enterArray" view="$ctrl.view"></child-component2>
+        </div>
+    </div>
+</div>
