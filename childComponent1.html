@@ -1,6 +1,16 @@
-<div>
-    Enter Value <input type="text" ng-model="$ctrl.enterValue" />
-    <button ng-click="$ctrl.enterValueData()">Enter Value</button>
+<div class="container">
+    <div class="row">
+        <!--<div class="col-xs-3">
+            Child1 Component : {{$ctrl.view}}<button ng-click="$ctrl.onViewChanges()">Change</button>
+        </div>-->
+
+        <div class="col-xs-6" style="border:solid; height:200px; padding-top:10px;">
+            Child 1 Component
+            <div>
+                Enter Value <input type="text" ng-model="$ctrl.enterValue" />
+                <button ng-click="$ctrl.enterValueData()">Enter Value</button>
+            </div>
+
+        </div>
+    </div>
 </div>
-<button ng-click="$ctrl.onViewChanges()">Change</button>
-Parent Component : {{$ctrl.view}}
