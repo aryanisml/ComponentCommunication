@@ -13,5 +13,5 @@ One Way Binding it never going to change <input type="text" ng-model="$ctrl.prim
 
 
 
-<child-component1 on-view-change="view = $event.view" enter-value="$ctrl.enterInfo" enter-value-data="$ctrl.enterValueData()" enter-my-data="$ctrl.enterMyData"></child-component1>
+<child-component1 on-view-change="$ctrl.view =$event.view" enter-value="$ctrl.enterInfo" enter-value-data="$ctrl.enterValueData()" view="$ctrl.view"></child-component1>
 <child-component2 enter-value-array="$ctrl.enterArray"   view="$ctrl.view"></child-component2>
