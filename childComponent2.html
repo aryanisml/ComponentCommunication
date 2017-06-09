@@ -1,9 +1,19 @@
-<br/>
-<div>
-    <ul ng-repeat="item in $ctrl.enterValueArray">
-        <li>
-            {{item.name}}
-        </li>
-    </ul>
+<div class="contaienr">
+    <div class="row">
+        <div class="col-xs-6" style="border:solid; height:200px; padding-top:10px;">
+            Child 2 Component
+            <div>
+                <ul ng-repeat="item in $ctrl.enterValueArray">
+                    <li>
+                        {{item.name}}
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+
 </div>
-Child Component {{$ctrl.view}}
+<!--Child Component {{$ctrl.view}}-->
