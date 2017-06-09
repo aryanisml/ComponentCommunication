@@ -27,7 +27,7 @@
     function ControllerChild1() {
         var $ctrl = this;
         $ctrl.onViewChanges=function(){
-            //$ctrl.view="swa";
+            $ctrl.view="swa";
             $ctrl.onViewChange({$event: {view:$ctrl.view}});
         };
 
